@@ -6,3 +6,8 @@ title: [Life in weeks]
 description: [See how your life looks in weeks]
 
 show_downloads: false
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true
