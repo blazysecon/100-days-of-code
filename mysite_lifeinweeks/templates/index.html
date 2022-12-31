@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Life in weeks</title>
+        <link rel="shortcut icon" href="{{url_for('static', filename='favicon.png')}}" type="image/x-icon">
+    </head>
+    <body>
+      <p><b>Life in weeks</b></p>
+        <form method="POST">
+            Enter your birthday (YYYY-MM-DD): <input type="text" name="birthdate-input"><br>
+            <button type="submit">Submit</button>
+        </form>
+        <!-- <form method="POST">
+          Enter the age you started working: <input type="text" name="workage-input"><br>
+          <button type="submit">Submit</button>
+      </form> -->
+        <p>Each square represents one week of your life: </p>
+        </p> ▧ - weeks in bliss, ▤ - weeks educating, ▣ - weeks slaving away, □ - weeks you can still choose how to spent</p>
+        {% autoescape false %}
+            {{message}}
+        {% endautoescape %}
+    </body>
+</html>

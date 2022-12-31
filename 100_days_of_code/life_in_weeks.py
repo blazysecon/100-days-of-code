@@ -1,5 +1,13 @@
+from datetime import datetime
+
 datebirth = input("Enter your birthday (YYYY-MM-DD): ")
 print(datebirth)
+
+from datetime import datetime
+
+current_dateTime = datetime.now()
+
+print(current_dateTime)
 
 age_now = input("What is your age? ")
 
