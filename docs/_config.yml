@@ -1,8 +1,6 @@
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 title: [Life in weeks]
 description: [See how your life looks in weeks]
