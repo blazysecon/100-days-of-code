@@ -11,3 +11,5 @@ for i in range(40):
         else:
             print("\u25A1 ", end="")
     print()
+
+print("\u25FC \u25FB \u25A5 \u25A4 \u25A3")
