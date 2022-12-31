@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "100-days-of-code"
+version = "0.1.0"
+description = ""
+authors = ["Giedrius Blazys <888236+blazysecon@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "100_days_of_code"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
